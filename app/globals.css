@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  color: #e2e8f0;
+  background-color: #0b1026;
+  /* Estrellas hechas con gradientes + fondo de cielo nocturno */
+  background-image:
+    radial-gradient(1px 1px at 20px 30px, #ffffff, transparent),
+    radial-gradient(1px 1px at 90px 120px, #c4b5fd, transparent),
+    radial-gradient(1.5px 1.5px at 160px 60px, #ffffff, transparent),
+    radial-gradient(1px 1px at 230px 170px, #7dd3fc, transparent),
+    linear-gradient(to bottom, #0b1026, #1a1140);
+  background-size: 250px 200px, 250px 200px, 250px 200px, 250px 200px, 100% 100%;
+  background-repeat: repeat, repeat, repeat, repeat, no-repeat;
+  background-attachment: fixed;
+}
